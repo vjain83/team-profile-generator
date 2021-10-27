@@ -12,6 +12,21 @@ test('Check Manager object ', () => {
 
 })
 
+test('to check if getName() method work', () => {
+    expect(manager.getName()).toBe('ManagerA');
+
+})
+
+test('to check if getId() method work', () => {
+    expect(manager.getId()).toBe('111');
+})
+
+test('to check if getEmail() method work', () => {
+    expect(manager.getEmail()).toBe('abc@gmail.com');
+})
+test('to check if getEmail() method work', () => {
+    expect(manager.getOfficeNumber()).toBe('222');
+})
 test('Check Manager getRole() function', () => {
     expect(manager.getRole()).toBe('Manager');
 })
