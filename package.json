@@ -18,5 +18,11 @@
   "homepage": "https://github.com/vjain83/team-profile-generator#readme",
   "devDependencies": {
     "jest": "^27.3.1"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "inquirer": "^8.2.0"
   }
 }
