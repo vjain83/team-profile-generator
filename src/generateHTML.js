@@ -96,7 +96,7 @@ generateHTML = (data) => {
 
 const generateTeamPage = function (employeeCards) {
   return `
-<!DOCTYPE html>
+ls<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
